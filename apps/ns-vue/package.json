@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "main": "app/app.js",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack --env.mode=production"
+  },
+  "dependencies": {
+    "@nativescript/core": "~8.7.1",
+    "@nativescript/theme": "~3.0.2",
+    "@nstudio/nativescript-checkbox": "^2.0.5",
+    "axios": "^0.21.4",
+    "nativescript-checkbox": "^3.0.3",
+    "nativescript-vue": "~2.9.3"
+  },
+  "devDependencies": {
+    "@nativescript/android": "~8.7.0",
+    "@nativescript/ios": "^8.7.1",
+    "@nativescript/types": "~8.1.0",
+    "@nativescript/webpack": "~5.0.0",
+    "nativescript": "^8.7.0",
+    "nativescript-vue-template-compiler": "~2.9.3",
+    "webpack": "^5.91.0",
+    "webpack-dev-server": "^5.0.4"
+  }
+}

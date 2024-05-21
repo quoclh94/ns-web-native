@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev:web": "cd ./apps/vite-vue-ts && npm run dev --no-hmr --env.watchNodeModules",
+    "dev:android": "cd ./apps/ns-vue && ns run android --no-hmr --env.watchNodeModules",
+    "dev:ios": "cd ./apps/ns-vue && ns run ios --no-hmr --env.watchNodeModules --simulator",
+    "dev:clean": "cd ./apps/ns-vue && ns clean",
+    "dev.ios.device": "cd ./apps/ns-vue && ns run ios --no-hmr --env.watchNodeModules --device"
+  }
+}
